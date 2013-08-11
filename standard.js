@@ -205,8 +205,8 @@
 				}]
 		}
 
-    var str = JSON.stringify(ocActivity, undefined, 4);
+    var str = JSON.stringify(ocActivity, undefined, 2);
     output(syntaxHighlight(str),'draftStandard');
-		str = JSON.stringify(draftModel, undefined,4);
+		str = JSON.stringify(draftModel, undefined,2);
 		output(syntaxHighlight(str), 'pilotModel');
 })();
